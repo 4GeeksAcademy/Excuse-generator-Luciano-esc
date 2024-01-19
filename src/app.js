@@ -26,7 +26,6 @@ window.onload = function() {
     let whatExcuse = what[Math.floor(Math.random() * what.length)];
     let whenExcuse = when[Math.floor(Math.random() * when.length)];
 
-    console.log(whoExcuse);
     return (
       whoExcuse + " " + actionExcuse + " " + whatExcuse + " " + whenExcuse + " "
     );
